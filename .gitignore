@@ -1,0 +1,47 @@
+# MacOS
+.DS_Store
+.Trash/
+*.CFUserTextEncoding
+
+# Python / Conda
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.env
+.venv/
+venv/
+conda-meta/
+*.conda
+.condarc
+.ipynb_checkpoints/
+.conda/
+.cache/
+.python-version
+
+# PySpark / Hadoop / Spark
+spark-warehouse/
+*.log
+*.out
+
+# AWS / Cloud
+.aws/
+*.pem
+*.key
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Database / Local Files
+*.db
+*.sqlite3
+*.csv  # 필요하면 예제 CSV만 commit, 나머지는 제외
+
+*.log
+*.tmp
